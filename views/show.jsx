@@ -19,6 +19,7 @@ function Show({ bread, index }) {
       <img src={bread.image} alt={bread.name} />
       <li>
         <a href="/breads">Go home</a>
+        <a href={`/breads/${index}/edit`}><button>Edit</button></a>
       </li>
     </Default>
   );
